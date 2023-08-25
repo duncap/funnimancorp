@@ -4,16 +4,22 @@
     <title>funni man corp</title>
     <style>
         body {
-            background-image: url('https://i.gifer.com/WBVk.gif');
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fen%2FWBVk&psig=AOvVaw0tT1pjg2MlyUOVgZt-nKGG&ust=1693075749130000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCOjB_Oa8-IADFQAAAAAdAAAAABAI');
             background-repeat: repeat;
             font-family: 'Comic Sans MS', cursive;
             margin: 0;
             padding: 0;
+            color: white; /* Set text color to white */
         }
         
         .header {
-            text-align: left;
+            display: flex; /* Add flex display */
+            align-items: center; /* Vertically center logo */
             padding: 10px;
+        }
+        
+        .logo {
+            margin-right: 10px; /* Add margin to separate logo from text */
         }
         
         .content {
@@ -21,7 +27,7 @@
         }
         
         .footer {
-            background-color: #ff9900            text-align: center;
+            text-align: center;
             padding: 10px;
             position: absolute;
             bottom: 0;
@@ -31,7 +37,8 @@
 </head>
 <body>
     <div class="header">
-        <h1>Welcome to funni man corp.</h1>
+        <img src="logo.png" alt="funni man corp. Logo" class="logo"> <!-- Add your logo image -->
+        <h1>funni man corp.</h1>
     </div>
     
     <div class="content">
@@ -44,7 +51,7 @@
     </div>
     
     <div class="footer">
-        &copy; 2003 funni man corp
+        &copy; 2003 funni man corp. | Designed with ❤️ by [Your Name]
     </div>
 </body>
 </html>
